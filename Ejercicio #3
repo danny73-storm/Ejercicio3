@@ -1,0 +1,11 @@
+Ejercicio #3
+
+Algoritmo FactorialDeN
+	Escribir 'Ingrese el numero que desee conocer su factorial'
+	Leer N
+	p <- N
+	Para i<-N-1 Hasta 1 Con Paso -1 Hacer
+		p <- p*i
+	FinPara
+	Escribir 'El factorial de ',N,' es: ',p
+FinAlgoritmo
